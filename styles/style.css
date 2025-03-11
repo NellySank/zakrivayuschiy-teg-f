@@ -88,6 +88,34 @@
   object-fit: cover;
 }
 
+.image_prepare {
+  filter: contrast(50%);
+}
+
+.image_clear_list {
+  filter: opacity(0.6);
+}
+
+.image_not_work_out {
+  filter: grayscale(0.8);
+}
+
+.image_ideal {
+  filter: saturate(158%);
+}
+
+.image_near {
+  filter: sepia(80%);
+}
+
+.image_strategies {
+  filter: invert(0.7);
+}
+
+.image_hands_drop {
+  filter: drop-shadow(5px 15px 3px rgba(0, 0, 0, 0.8));
+}
+
 .card__label {
   position: absolute;
   top: 25px;
@@ -338,12 +366,12 @@
   row-gap: 30px;
   column-gap: 20px;
   align-items: center;
-  inline-size: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
+  inline-size: clamp(21.1875rem, 20.9234rem + 1.1268vw, 21.9375rem);
   background-color: #ffffff;
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: clamp(2.5625rem, 3.0536rem + -2.0952vw, 1.875rem);
-  padding-right: clamp(2.5625rem, 3.0536rem + -2.0952vw, 1.875rem);
+  padding-left: clamp(2.3125rem, 2.4665rem + -0.6573vw, 1.875rem);
+  padding-right: clamp(2.3125rem, 2.4665rem + -0.6573vw, 1.875rem);
   border: 2px solid #000;
   margin-left: clamp(1.0625rem, -10.5242rem + 49.4366vw, 33.96875rem);
   margin-right: clamp(1.0625rem, -10.5242rem + 49.4366vw, 33.96875rem);

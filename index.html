@@ -25,7 +25,7 @@
         </h2>
         <div class="card__container_img">
           <img
-            class="card__img"
+            class="card__img image_prepare"
             src="./images/image_prepare.svg"
             alt="Грузовик на фиолетовом фоне"
           />
@@ -83,7 +83,7 @@
         <h2 class="card__title">1 спринт: Я — чистый лист</h2>
         <div class="card__container_img">
           <img
-            class="card__img"
+            class="card__img image_clear_list"
             src="./images/image_clear_list.svg"
             alt="Белый грузовик с фиолетовой крышей"
           />
@@ -143,7 +143,7 @@
         <h2 class="card__title">1 спринт: А если не получится?</h2>
         <div class="card__container_img">
           <img
-            class="card__img"
+            class="card__img image_not_work_out"
             src="./images/image_not_work_out.svg"
             alt="Белый грузовик с красной крышей на фиолетовом фоне"
           />
@@ -201,7 +201,7 @@
         <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
         <div class="card__container_img">
           <img
-            class="card__img"
+            class="card__img image_ideal"
             src="./images/image_ideal.svg"
             alt="Белый грузовик с коричневой крышей на фиолетовом фоне"
           />
@@ -261,7 +261,7 @@
         <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
         <div class="card__container_img">
           <img
-            class="card__img"
+            class="card__img image_near"
             src="./images/image_near.svg"
             alt="Белый грузовик с голубой крышей на зеленом фоне"
           />
@@ -322,7 +322,7 @@
         <h2 class="card__title">3 спринт: Обходные стратегии</h2>
         <div class="card__container_img">
           <img
-            class="card__img"
+            class="card__img image_strategies"
             src="./images/image_strategies.svg"
             alt="Белый грузовик на заблюренном фоне"
           />
@@ -380,7 +380,7 @@
         <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
         <div class="card__container_img">
           <img
-            class="card__img"
+            class="card__img image_hands_drop"
             src="./images/image_hands_drop.svg"
             alt="Белый грузовик на заблюренном фоне"
           />
@@ -502,13 +502,14 @@
     <button
       class="button_save button_save_size"
       onclick="window['message-dialog'].showModal()"
+      aria-label="Сохранить на память"
     >
-      <div class="button_save__container">
+      <span class="button_save__container">
         <svg class="button_save__img" xmlns="http://www.w3.org/2000/svg">
           <use href="./svg/floppy.svg#floppy_disk"></use>
         </svg>
-        <h2 class="button__text">Сохранить на память</h2>
-      </div>
+        <span class="button__text">Сохранить на память</span>
+      </span>
     </button>
     <dialog id="message-dialog" class="dialog">
       <div class="img_container">
