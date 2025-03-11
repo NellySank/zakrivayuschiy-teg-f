@@ -79,13 +79,13 @@
 .card__container_img {
   position: relative;
   inline-size: 100%;
-  min-block-size: 375px;
+  min-block-size: clamp(23.4375rem, 16.3732rem + 30.1408vw, 43.5rem);
 }
 
 .card__img {
   inline-size: 100%;
   block-size: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .image_prepare {
@@ -356,8 +356,8 @@
 }
 
 .button_save__img {
-  width: clamp(1.75rem, 2.0625rem + -1.3333vw, 1.3125rem);
-  height: clamp(1.75rem, 2.0625rem + -1.3333vw, 1.3125rem);
+  width: clamp(2.0625rem + -1.3333vw, 1.75rem, 1.3125rem);
+  height: clamp(2.0625rem + -1.3333vw, 1.75rem, 1.3125rem);
   fill: #ffffff;
 }
 
@@ -370,8 +370,8 @@
   background-color: #ffffff;
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: clamp(2.3125rem, 2.4665rem + -0.6573vw, 1.875rem);
-  padding-right: clamp(2.3125rem, 2.4665rem + -0.6573vw, 1.875rem);
+  padding-left: clamp(2.4665rem + -0.6573vw, 2.3125rem, 1.875rem);
+  padding-right: clamp(2.4665rem + -0.6573vw, 2.3125rem, 1.875rem);
   border: 2px solid #000;
   margin-left: clamp(1.0625rem, -10.5242rem + 49.4366vw, 33.96875rem);
   margin-right: clamp(1.0625rem, -10.5242rem + 49.4366vw, 33.96875rem);
