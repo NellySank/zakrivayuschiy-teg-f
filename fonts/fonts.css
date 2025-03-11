@@ -20,6 +20,6 @@
 
 @supports (font-variation-settings: normal) {
   .page {
-    font-family: 'Inter-Variable', sans-serif;
+    font-variation-settings: 'wght' var(--font-weight-basic);
   }
 }
