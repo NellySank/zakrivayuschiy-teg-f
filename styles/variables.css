@@ -6,7 +6,7 @@
   --font-weight-header: 700;
   --text-shadow-color: #fff;
   --padding-page-left-right: clamp(0rem, -8.1426rem + 34.7418vw, 23.125rem);
-  --header-block-size: clamp(20.4375rem, 19.5352rem + 3.8498vw, 23rem);
+  --padding-header-top-bottom: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem);
   --header-title-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   --header-text-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   --card-block-size: clamp(47.5rem, 43.1206rem + 18.6854vw, 59.9375rem);
@@ -35,4 +35,5 @@
   --animation-fill-color: #ff0000;
   --core-color: #fff;
   --main-body-color: #fff;
+  --border: 2px solid #000;
 }
