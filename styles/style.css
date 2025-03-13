@@ -126,8 +126,8 @@
 .card__label {
   position: absolute;
   top: 25px;
-  right: clamp(0.6875rem, 0.3794rem + 1.3146vw, 1.5625rem);
-  font-family: var(--font-family-main), sans-serif;
+  right: clamp(0.8125rem, 0.5484rem + 1.1268vw, 1.5625rem);
+  font-family: var(--font-family-accent), sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   mix-blend-mode: hard-light;
@@ -143,11 +143,17 @@
   text-transform: lowercase;
 }
 
+.card__container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px;
+}
+
 .card__container_text {
   display: flex;
   flex-direction: column;
   gap: 27px;
-  padding: 25px;
 }
 
 .card__text {
@@ -160,11 +166,12 @@
   justify-content: flex-end;
   align-items: center;
   gap: 3px;
-  margin-right: 25px;
-  margin-bottom: 20px;
 }
 
 .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   background-color: #ffffff;
   border: var(--border);
@@ -189,10 +196,10 @@
 }
 
 .card__like-button {
-  padding-top: 9px;
-  padding-bottom: 5px;
-  inline-size: 130px;
-  align-self: start;
+  padding: 12px 37px;
+  max-inline-size: 130px;
+  align-self: flex-start;
+  justify-self: center;
 }
 
 .card__icon-button .main-body {
@@ -246,7 +253,7 @@
 
 .like-icon.is-liked .main-body {
   --main-body-color: red;
-  transition: fill 0.3s linear;
+  transition: fill 0.3s 0.05s linear;
 }
 
 .like-icon.is-liked .contour {
@@ -290,8 +297,7 @@
   padding-bottom: 15px;
 }
 
-.button_save::after,
-.card__like-button::after {
+.button::after {
   content: '';
   position: absolute;
   left: 0;
